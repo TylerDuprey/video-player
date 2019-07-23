@@ -1,0 +1,26 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+}
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  line-height: 17px;
+}
+figcaption {
+  font-weight: 700;
+}
+/* Tablets and Wider */
+@media screen and (min-width: 768px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 70%;
+  }
+}
